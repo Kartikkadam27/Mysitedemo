@@ -1,0 +1,138 @@
+body {
+     margin: 0px;
+     text-align: center;
+     font-family: "Amethysta", serif;
+     color: #40514e;
+}
+
+h1 {
+     font-family: "Sacramento", cursive;
+     font-size: 5.625em;
+     margin: 50px auto 0px auto;
+     color: #66bfbf;
+     line-height: 2;
+}
+h2 {
+     font-size: 2rem;
+     color: #66bfbf;
+     font-weight: normal;
+     padding-bottom: 15px;
+     padding-top: 10px;
+     font-family: "Montserrat", sans-serif;
+}
+h3 {
+     color: #11999e;
+}
+
+hr {
+     border-style: none;
+     border-top-style: dotted;
+     border-width: 7px;
+     width: 3%;
+     border-color: #bceeee;
+     margin: 50px auto 60px auto;
+}
+
+p {
+     line-height: 2;
+}
+
+a {
+     color: #036164;
+     font-family: "Montserrat", sans-serif;
+     margin: 10px 20px 10px;
+     text-decoration: none;
+}
+a:hover {
+     color: #eaf6f6;
+}
+
+.top {
+     background-color: #e4f9f5;
+     position: relative;
+     padding-top: 100px;
+}
+.middle {
+     padding-top: 100px;
+}
+
+.profile {
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+
+.intro {
+     width: 70%;
+     margin: auto;
+}
+
+.tcloud {
+     position: absolute;
+     top: 50px;
+     right: 300px;
+}
+
+.bcloud {
+     position: absolute;
+     left: 250px;
+     bottom: 300px;
+}
+
+.skill-row {
+     width: 77%;
+     margin: 50px auto 100px auto;
+     text-align: left;
+}
+.be {
+     width: 20%;
+     float: right;
+     padding-left: 50px;
+}
+.dd {
+     width: 20%;
+     float: left;
+     padding-right: 50px;
+}
+.skills {
+     padding-top: 40px;
+     padding-bottom: 20px;
+}
+.bottom {
+     padding: 50px;
+     background-color: #66bfbf;
+     margin-top: 100px;
+}
+
+.contact-message {
+     width: 50%;
+     margin: 40px auto 60px;
+}
+
+.myButton {
+     background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+     background-color: #11cdd4;
+     border-radius: 12px;
+     border: 1px solid #9bb9cc;
+     display: inline-block;
+     cursor: pointer;
+     color: #ffffff;
+     font-family: Arial;
+     font-size: 24px;
+     font-weight: bold;
+     padding: 14px 20px;
+     text-decoration: none;
+     font-family: "Montserrat", sans-serif;
+}
+.myButton:hover {
+     background: #30e3cb;
+}
+.myButton:active {
+     position: relative;
+     top: 1px;
+}
+
+.copyright {
+     color: #eaf6f6;
+     font-size: 15px;
+     padding: 20px 0px;
+}
